@@ -1,0 +1,426 @@
+activemq_1               | INFO: Loading '/opt/activemq/bin/env'
+activemq_1               | INFO: Using java '/usr/java/default/bin/java'
+activemq_1               | INFO: Starting in foreground, this is just for debugging purposes (stop process by pressing CTRL+C)
+activemq_1               | INFO: Creating pidfile /opt/activemq/data/activemq.pid
+activemq_1               | /opt/activemq/bin/activemq: line 488: /opt/activemq/data/activemq.pid: Permission denied
+alfresco_1               | NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+share_1                  | Replace 'REPO_HOST' with 'alfresco' and 'REPO_PORT' with '7080'
+share_1                  | NEW -csrf.filter.referer is ''
+share_1                  | NEW -csrf.filter.origin is ''
+share_1                  | NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+solr6_1                  | sed: couldn't open temporary file /opt/alfresco-search-services/sedUggaDB: Permission denied
+alfresco_solr6_1 exited with code 4
+activemq_1               | Java Runtime: Oracle Corporation 1.8.0_181 /usr/java/jdk1.8.0_181/jre
+activemq_1               |   Heap sizes: current=62976k  free=58707k  max=932352k
+activemq_1               |     JVM args: -Xms64M -Xmx1G -Djava.util.logging.config.file=logging.properties -Djava.security.auth.login.config=/opt/activemq/conf/login.config -Dcom.sun.management.jmxremote -Djava.awt.headless=true -Djava.io.tmpdir=/opt/activemq/tmp -Dactivemq.classpath=/opt/activemq/conf:/opt/activemq/../lib/: -Dactivemq.home=/opt/activemq -Dactivemq.base=/opt/activemq -Dactivemq.conf=/opt/activemq/conf -Dactivemq.data=/opt/activemq/data
+activemq_1               | Extensions classpath:
+activemq_1               |   [/opt/activemq/lib,/opt/activemq/lib/camel,/opt/activemq/lib/optional,/opt/activemq/lib/web,/opt/activemq/lib/extra]
+activemq_1               | ACTIVEMQ_HOME: /opt/activemq
+activemq_1               | ACTIVEMQ_BASE: /opt/activemq
+activemq_1               | ACTIVEMQ_CONF: /opt/activemq/conf
+activemq_1               | ACTIVEMQ_DATA: /opt/activemq/data
+activemq_1               | log4j:ERROR setFile(null,true) call failed.
+activemq_1               | java.io.FileNotFoundException: /opt/activemq/data/activemq.log (Permission denied)
+activemq_1               |      at java.io.FileOutputStream.open0(Native Method)
+activemq_1               |      at java.io.FileOutputStream.open(FileOutputStream.java:270)
+activemq_1               |      at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+activemq_1               |      at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+activemq_1               |      at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+activemq_1               |      at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:207)
+activemq_1               |      at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+activemq_1               |      at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+activemq_1               |      at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+activemq_1               |      at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+activemq_1               |      at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+activemq_1               |      at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+activemq_1               |      at org.apache.log4j.PropertyConfigurator.configureRootCategory(PropertyConfigurator.java:648)
+activemq_1               |      at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:514)
+activemq_1               |      at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:580)
+activemq_1               |      at org.apache.log4j.helpers.OptionConverter.selectAndConfigure(OptionConverter.java:526)
+activemq_1               |      at org.apache.log4j.LogManager.<clinit>(LogManager.java:127)
+activemq_1               |      at org.slf4j.impl.Log4jLoggerFactory.<init>(Log4jLoggerFactory.java:66)
+activemq_1               |      at org.slf4j.impl.StaticLoggerBinder.<init>(StaticLoggerBinder.java:72)
+activemq_1               |      at org.slf4j.impl.StaticLoggerBinder.<clinit>(StaticLoggerBinder.java:45)
+activemq_1               |      at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
+activemq_1               |      at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
+activemq_1               |      at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
+activemq_1               |      at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
+activemq_1               |      at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:383)
+activemq_1               |      at org.apache.activemq.console.command.ProducerCommand.<clinit>(ProducerCommand.java:31)
+activemq_1               |      at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+activemq_1               |      at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+activemq_1               |      at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+activemq_1               |      at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+activemq_1               |      at java.lang.Class.newInstance(Class.java:442)
+activemq_1               |      at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+activemq_1               |      at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+activemq_1               |      at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+activemq_1               |      at org.apache.activemq.console.command.ShellCommand.getCommands(ShellCommand.java:170)
+activemq_1               |      at org.apache.activemq.console.command.ShellCommand.<init>(ShellCommand.java:43)
+activemq_1               |      at org.apache.activemq.console.command.ShellCommand.<init>(ShellCommand.java:32)
+activemq_1               |      at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+activemq_1               |      at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+activemq_1               |      at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+activemq_1               |      at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+activemq_1               |      at java.lang.Class.newInstance(Class.java:442)
+activemq_1               |      at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+activemq_1               |      at org.apache.activemq.console.Main.main(Main.java:115)
+activemq_1               | log4j:ERROR setFile(null,true) call failed.
+activemq_1               | java.io.FileNotFoundException: /opt/activemq/data/audit.log (Permission denied)
+activemq_1               |      at java.io.FileOutputStream.open0(Native Method)
+activemq_1               |      at java.io.FileOutputStream.open(FileOutputStream.java:270)
+activemq_1               |      at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+activemq_1               |      at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+activemq_1               |      at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+activemq_1               |      at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:207)
+activemq_1               |      at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+activemq_1               |      at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+activemq_1               |      at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+activemq_1               |      at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+activemq_1               |      at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+activemq_1               |      at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+activemq_1               |      at org.apache.log4j.PropertyConfigurator.parseCatsAndRenderers(PropertyConfigurator.java:672)
+activemq_1               |      at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:516)
+activemq_1               |      at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:580)
+activemq_1               |      at org.apache.log4j.helpers.OptionConverter.selectAndConfigure(OptionConverter.java:526)
+activemq_1               |      at org.apache.log4j.LogManager.<clinit>(LogManager.java:127)
+activemq_1               |      at org.slf4j.impl.Log4jLoggerFactory.<init>(Log4jLoggerFactory.java:66)
+activemq_1               |      at org.slf4j.impl.StaticLoggerBinder.<init>(StaticLoggerBinder.java:72)
+activemq_1               |      at org.slf4j.impl.StaticLoggerBinder.<clinit>(StaticLoggerBinder.java:45)
+activemq_1               |      at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
+activemq_1               |      at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
+activemq_1               |      at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
+activemq_1               |      at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
+activemq_1               |      at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:383)
+activemq_1               |      at org.apache.activemq.console.command.ProducerCommand.<clinit>(ProducerCommand.java:31)
+activemq_1               |      at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+activemq_1               |      at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+activemq_1               |      at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+activemq_1               |      at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+activemq_1               |      at java.lang.Class.newInstance(Class.java:442)
+activemq_1               |      at java.util.ServiceLoader$LazyIterator.nextService(ServiceLoader.java:380)
+activemq_1               |      at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:404)
+activemq_1               |      at java.util.ServiceLoader$1.next(ServiceLoader.java:480)
+activemq_1               |      at org.apache.activemq.console.command.ShellCommand.getCommands(ShellCommand.java:170)
+activemq_1               |      at org.apache.activemq.console.command.ShellCommand.<init>(ShellCommand.java:43)
+activemq_1               |      at org.apache.activemq.console.command.ShellCommand.<init>(ShellCommand.java:32)
+activemq_1               |      at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+activemq_1               |      at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+activemq_1               |      at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+activemq_1               |      at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+activemq_1               |      at java.lang.Class.newInstance(Class.java:442)
+activemq_1               |      at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+activemq_1               |      at org.apache.activemq.console.Main.main(Main.java:115)
+activemq_1               | Loading message broker from: xbean:activemq.xml
+activemq_1               |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1ce92674: startup date [Fri Feb 26 01:37:36 UTC 2021]; root of context hierarchy
+share_1                  | 26-Feb-2021 01:37:44.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+share_1                  | 26-Feb-2021 01:37:44.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+share_1                  | 26-Feb-2021 01:37:44.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+share_1                  | 26-Feb-2021 01:37:44.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+share_1                  | 26-Feb-2021 01:37:44.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1029-oracle
+share_1                  | 26-Feb-2021 01:37:44.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+share_1                  | 26-Feb-2021 01:37:44.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-11.0.1
+share_1                  | 26-Feb-2021 01:37:44.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.1+13
+share_1                  | 26-Feb-2021 01:37:44.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+share_1                  | 26-Feb-2021 01:37:44.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+share_1                  | 26-Feb-2021 01:37:44.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+share_1                  | 26-Feb-2021 01:37:44.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+share_1                  | 26-Feb-2021 01:37:44.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+share_1                  | 26-Feb-2021 01:37:44.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+share_1                  | 26-Feb-2021 01:37:44.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+share_1                  | 26-Feb-2021 01:37:44.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+share_1                  | 26-Feb-2021 01:37:44.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms500m
+share_1                  | 26-Feb-2021 01:37:44.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx500m
+share_1                  | 26-Feb-2021 01:37:44.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dalfresco.host=localhost
+share_1                  | 26-Feb-2021 01:37:44.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dalfresco.port=7080
+share_1                  | 26-Feb-2021 01:37:44.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dalfresco.context=alfresco
+share_1                  | 26-Feb-2021 01:37:44.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dalfresco.protocol=http
+share_1                  | 26-Feb-2021 01:37:44.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+share_1                  | 26-Feb-2021 01:37:44.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+share_1                  | 26-Feb-2021 01:37:44.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+share_1                  | 26-Feb-2021 01:37:44.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+share_1                  | 26-Feb-2021 01:37:44.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+share_1                  | 26-Feb-2021 01:37:44.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+share_1                  | 26-Feb-2021 01:37:44.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+share_1                  | 26-Feb-2021 01:37:44.575 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.4.8].
+share_1                  | 26-Feb-2021 01:37:44.577 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+share_1                  | 26-Feb-2021 01:37:44.582 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+share_1                  | 26-Feb-2021 01:37:44.709 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2k-fips  26 Jan 2017]
+share_1                  | 26-Feb-2021 01:37:45.648 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-7080"]
+share_1                  | 26-Feb-2021 01:37:46.017 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+share_1                  | 26-Feb-2021 01:37:46.351 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-7009"]
+share_1                  | 26-Feb-2021 01:37:46.377 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+share_1                  | 26-Feb-2021 01:37:46.404 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 14173 ms
+share_1                  | 26-Feb-2021 01:37:47.859 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+share_1                  | 26-Feb-2021 01:37:47.862 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+share_1                  | 26-Feb-2021 01:37:48.128 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/share]
+alfresco_1               | 26-Feb-2021 01:37:48.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.43
+alfresco_1               | 26-Feb-2021 01:37:48.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 20:53:15 UTC
+alfresco_1               | 26-Feb-2021 01:37:48.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.43.0
+alfresco_1               | 26-Feb-2021 01:37:48.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+alfresco_1               | 26-Feb-2021 01:37:48.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1029-oracle
+alfresco_1               | 26-Feb-2021 01:37:48.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+alfresco_1               | 26-Feb-2021 01:37:48.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk-11.0.1
+alfresco_1               | 26-Feb-2021 01:37:48.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.1+13
+alfresco_1               | 26-Feb-2021 01:37:48.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+alfresco_1               | 26-Feb-2021 01:37:48.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+alfresco_1               | 26-Feb-2021 01:37:48.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+alfresco_1               | 26-Feb-2021 01:37:48.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+alfresco_1               | 26-Feb-2021 01:37:48.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+alfresco_1               | 26-Feb-2021 01:37:48.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+alfresco_1               | 26-Feb-2021 01:37:48.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+alfresco_1               | 26-Feb-2021 01:37:48.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+alfresco_1               | 26-Feb-2021 01:37:48.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddb.driver=org.postgresql.Driver
+alfresco_1               | 26-Feb-2021 01:37:48.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddb.username=alfresco
+alfresco_1               | 26-Feb-2021 01:37:48.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddb.password=alfresco
+alfresco_1               | 26-Feb-2021 01:37:48.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddb.url=jdbc:postgresql://10.20.15.5:5432/alfresco
+alfresco_1               | 26-Feb-2021 01:37:48.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.host=solr6
+alfresco_1               | 26-Feb-2021 01:37:48.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.port=9999
+alfresco_1               | 26-Feb-2021 01:37:48.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.secureComms=none
+alfresco_1               | 26-Feb-2021 01:37:48.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.base.url=/solr
+alfresco_1               | 26-Feb-2021 01:37:48.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dindex.subsystem.name=solr6
+alfresco_1               | 26-Feb-2021 01:37:48.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dshare.host=127.0.0.1
+alfresco_1               | 26-Feb-2021 01:37:48.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dshare.port=7080
+alfresco_1               | 26-Feb-2021 01:37:48.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dalfresco.host=localhost
+alfresco_1               | 26-Feb-2021 01:37:48.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dalfresco.port=7080
+alfresco_1               | 26-Feb-2021 01:37:48.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Daos.baseUrlOverwrite=http://localhost:7080/alfresco/aos
+alfresco_1               | 26-Feb-2021 01:37:48.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dmessaging.broker.url=failover:(nio://activemq:61616)?timeout=3000&jms.useCompression=true
+alfresco_1               | 26-Feb-2021 01:37:48.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddeployment.method=DOCKER_COMPOSE
+alfresco_1               | 26-Feb-2021 01:37:48.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlocal.transform.service.enabled=true
+alfresco_1               | 26-Feb-2021 01:37:48.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DlocalTransform.pdfrenderer.url=http://alfresco-pdf-renderer:8090/
+alfresco_1               | 26-Feb-2021 01:37:48.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DlocalTransform.imagemagick.url=http://imagemagick:8090/
+alfresco_1               | 26-Feb-2021 01:37:48.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DlocalTransform.libreoffice.url=http://libreoffice:8090/
+alfresco_1               | 26-Feb-2021 01:37:48.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DlocalTransform.tika.url=http://tika:8090/
+alfresco_1               | 26-Feb-2021 01:37:48.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DlocalTransform.misc.url=http://transform-misc:8090/
+alfresco_1               | 26-Feb-2021 01:37:48.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlegacy.transform.service.enabled=true
+alfresco_1               | 26-Feb-2021 01:37:48.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dalfresco-pdf-renderer.url=http://alfresco-pdf-renderer:8090/
+alfresco_1               | 26-Feb-2021 01:37:48.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djodconverter.url=http://libreoffice:8090/
+alfresco_1               | 26-Feb-2021 01:37:48.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dimg.url=http://imagemagick:8090/
+alfresco_1               | 26-Feb-2021 01:37:48.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dtika.url=http://tika:8090/
+alfresco_1               | 26-Feb-2021 01:37:48.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dtransform.misc.url=http://transform-misc:8090/
+alfresco_1               | 26-Feb-2021 01:37:48.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcsrf.filter.enabled=false
+alfresco_1               | 26-Feb-2021 01:37:48.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1500m
+alfresco_1               | 26-Feb-2021 01:37:48.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1500m
+alfresco_1               | 26-Feb-2021 01:37:48.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+alfresco_1               | 26-Feb-2021 01:37:48.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+alfresco_1               | 26-Feb-2021 01:37:48.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+alfresco_1               | 26-Feb-2021 01:37:48.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+alfresco_1               | 26-Feb-2021 01:37:48.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.manager
+alfresco_1               | 26-Feb-2021 01:37:48.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.policy==/usr/local/tomcat/conf/catalina.policy
+alfresco_1               | 26-Feb-2021 01:37:48.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+alfresco_1               | 26-Feb-2021 01:37:48.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+alfresco_1               | 26-Feb-2021 01:37:48.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+alfresco_1               | 26-Feb-2021 01:37:48.619 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.4.8].
+alfresco_1               | 26-Feb-2021 01:37:48.625 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+alfresco_1               | 26-Feb-2021 01:37:48.631 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+alfresco_1               | 26-Feb-2021 01:37:48.692 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2k-fips  26 Jan 2017]
+libreoffice_1            |
+libreoffice_1            |   .   ____          _            __ _ _
+libreoffice_1            |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+libreoffice_1            | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+libreoffice_1            |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+libreoffice_1            |   '  |____| .__|_| |_|_| |_\__, | / / / /
+libreoffice_1            |  =========|_|==============|___/=/_/_/_/
+libreoffice_1            |  :: Spring Boot ::        (v2.1.8.RELEASE)
+libreoffice_1            |
+alfresco_1               | 26-Feb-2021 01:37:49.794 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-7080"]
+alfresco_1               | 26-Feb-2021 01:37:50.026 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+alfresco_1               | 26-Feb-2021 01:37:50.401 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-7009"]
+alfresco_1               | 26-Feb-2021 01:37:50.454 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+alfresco_1               | 26-Feb-2021 01:37:50.488 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 13954 ms
+alfresco_1               | 26-Feb-2021 01:37:51.848 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+alfresco_1               | 26-Feb-2021 01:37:51.858 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.43
+alfresco_1               | 26-Feb-2021 01:37:52.123 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-7080"]
+alfresco_1               | 26-Feb-2021 01:37:52.374 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-7009"]
+alfresco_1               | 26-Feb-2021 01:37:52.456 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1965 ms
+activemq_1               |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[/opt/activemq/data/kahadb]
+libreoffice_1            | 2021-02-26 01:37:53.113  INFO 1 --- [           main] org.alfresco.transformer.Application     : Starting Application v2.1.0 on 34f962925d16 with PID 1 (/usr/bin/alfresco-docker-libreoffice.jar started by libreoffice in /)
+activemq_1               |  INFO | Database /opt/activemq/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired
+libreoffice_1            | 2021-02-26 01:37:53.179  INFO 1 --- [           main] org.alfresco.transformer.Application     : No active profile set, falling back to default profiles: default
+alfresco-pdf-renderer_1  |
+alfresco-pdf-renderer_1  |   .   ____          _            __ _ _
+alfresco-pdf-renderer_1  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+alfresco-pdf-renderer_1  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+alfresco-pdf-renderer_1  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+alfresco-pdf-renderer_1  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+alfresco-pdf-renderer_1  |  =========|_|==============|___/=/_/_/_/
+alfresco-pdf-renderer_1  |  :: Spring Boot ::        (v2.1.8.RELEASE)
+alfresco-pdf-renderer_1  |
+imagemagick_1            |
+imagemagick_1            |   .   ____          _            __ _ _
+imagemagick_1            |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+imagemagick_1            | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+imagemagick_1            |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+imagemagick_1            |   '  |____| .__|_| |_|_| |_\__, | / / / /
+imagemagick_1            |  =========|_|==============|___/=/_/_/_/
+imagemagick_1            |  :: Spring Boot ::        (v2.1.8.RELEASE)
+imagemagick_1            |
+transform-misc_1         |
+transform-misc_1         |   .   ____          _            __ _ _
+transform-misc_1         |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+transform-misc_1         | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+transform-misc_1         |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+transform-misc_1         |   '  |____| .__|_| |_|_| |_\__, | / / / /
+transform-misc_1         |  =========|_|==============|___/=/_/_/_/
+transform-misc_1         |  :: Spring Boot ::        (v2.1.8.RELEASE)
+transform-misc_1         |
+tika_1                   |
+tika_1                   |   .   ____          _            __ _ _
+tika_1                   |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+tika_1                   | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+tika_1                   |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+tika_1                   |   '  |____| .__|_| |_|_| |_\__, | / / / /
+tika_1                   |  =========|_|==============|___/=/_/_/_/
+tika_1                   |  :: Spring Boot ::        (v2.1.8.RELEASE)
+tika_1                   |
+alfresco-pdf-renderer_1  | 2021-02-26 01:37:55.944  INFO 1 --- [           main] org.alfresco.transformer.Application     : Starting Application v2.1.0 on 77507978b00b with PID 1 (/usr/bin/alfresco-docker-alfresco-pdf-renderer.jar started by pdf in /)
+alfresco-pdf-renderer_1  | 2021-02-26 01:37:56.019  INFO 1 --- [           main] org.alfresco.transformer.Application     : No active profile set, falling back to default profiles: default
+imagemagick_1            | 2021-02-26 01:37:56.324  INFO 1 --- [           main] org.alfresco.transformer.Application     : Starting Application v2.1.0 on 749ae1e8cb8e with PID 1 (/usr/bin/alfresco-docker-imagemagick.jar started by imagemagick in /)
+imagemagick_1            | 2021-02-26 01:37:56.389  INFO 1 --- [           main] org.alfresco.transformer.Application     : No active profile set, falling back to default profiles: default
+transform-misc_1         | 2021-02-26 01:37:56.931  INFO 1 --- [           main] org.alfresco.transformer.Application     : Starting Application v2.1.0 on 10b502efe119 with PID 1 (/usr/bin/alfresco-docker-transform-misc.jar started by transform-misc in /)
+transform-misc_1         | 2021-02-26 01:37:56.988  INFO 1 --- [           main] org.alfresco.transformer.Application     : No active profile set, falling back to default profiles: default
+tika_1                   | 2021-02-26 01:37:56.980  INFO 1 --- [           main] org.alfresco.transformer.Application     : Starting Application v2.1.0 on aba71d9e304e with PID 1 (/usr/bin/alfresco-docker-tika.jar started by tika in /)
+tika_1                   | 2021-02-26 01:37:57.060  INFO 1 --- [           main] org.alfresco.transformer.Application     : No active profile set, falling back to default profiles: default
+libreoffice_1            | 2021-02-26 01:38:21.424  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+libreoffice_1            | 2021-02-26 01:38:22.104  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+libreoffice_1            | 2021-02-26 01:38:22.123  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+libreoffice_1            | 2021-02-26 01:38:23.508  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+libreoffice_1            | 2021-02-26 01:38:23.508  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 29184 ms
+imagemagick_1            | 2021-02-26 01:38:25.266  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:25.675  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+imagemagick_1            | 2021-02-26 01:38:25.908  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+imagemagick_1            | 2021-02-26 01:38:25.926  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:26.227  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:26.229  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+transform-misc_1         | 2021-02-26 01:38:26.296  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+transform-misc_1         | 2021-02-26 01:38:26.915  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+transform-misc_1         | 2021-02-26 01:38:26.919  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+imagemagick_1            | 2021-02-26 01:38:27.345  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+imagemagick_1            | 2021-02-26 01:38:27.352  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 29890 ms
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:27.507  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:27.510  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 30482 ms
+libreoffice_1            | 2021-02-26 01:38:27.648  INFO 1 --- [           main] o.m.pooled.jms.JmsPoolConnectionFactory  : Provided ConnectionFactory implementation is JMS 2.0+ capable.
+tika_1                   | 2021-02-26 01:38:27.805  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+transform-misc_1         | 2021-02-26 01:38:28.166  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+transform-misc_1         | 2021-02-26 01:38:28.168  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 30115 ms
+tika_1                   | 2021-02-26 01:38:28.490  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+tika_1                   | 2021-02-26 01:38:28.519  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+tika_1                   | 2021-02-26 01:38:29.911  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+tika_1                   | 2021-02-26 01:38:29.921  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 31844 ms
+libreoffice_1            | 2021-02-26 01:38:30.745  INFO 1 --- [           main] o.a.j.office.ProcessPoolOfficeManager    : ProcessManager implementation is LinuxProcessManager
+libreoffice_1            | 2021-02-26 01:38:31.002  WARN 1 --- [ProcessThread-0] o.a.jodconverter.office.OfficeProcess    : profile dir '/tmp/.jodconverter_socket_host-127.0.0.1_port-8100' already exists; deleting
+libreoffice_1            | 2021-02-26 01:38:31.175  INFO 1 --- [ProcessThread-0] o.a.jodconverter.office.OfficeProcess    : Using original OpenOffice command: [/opt/libreoffice6.1/program/soffice.bin, -accept=socket,host=127.0.0.1,port=8100;urp;, -env:UserInstallation=file:///tmp/.jodconverter_socket_host-127.0.0.1_port-8100, -headless, -nocrashreport, -nodefault, -nofirststartwizard, -nolockcheck, -nologo, -norestore]
+libreoffice_1            | 2021-02-26 01:38:31.182  INFO 1 --- [ProcessThread-0] o.a.jodconverter.office.OfficeProcess    : starting process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1' and profileDir '/tmp/.jodconverter_socket_host-127.0.0.1_port-8100'
+libreoffice_1            | 2021-02-26 01:38:31.235  INFO 1 --- [ProcessThread-0] o.a.jodconverter.office.OfficeProcess    : started process; pid = 25
+imagemagick_1            | 2021-02-26 01:38:31.747  INFO 1 --- [           main] o.m.pooled.jms.JmsPoolConnectionFactory  : Provided ConnectionFactory implementation is JMS 2.0+ capable.
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:31.899  INFO 1 --- [           main] o.m.pooled.jms.JmsPoolConnectionFactory  : Provided ConnectionFactory implementation is JMS 2.0+ capable.
+transform-misc_1         | 2021-02-26 01:38:32.527  INFO 1 --- [           main] o.m.pooled.jms.JmsPoolConnectionFactory  : Provided ConnectionFactory implementation is JMS 2.0+ capable.
+share_1                  | 26-Feb-2021 01:38:33.904 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+tika_1                   | 2021-02-26 01:38:34.535  INFO 1 --- [           main] o.m.pooled.jms.JmsPoolConnectionFactory  : Provided ConnectionFactory implementation is JMS 2.0+ capable.
+libreoffice_1            | 2021-02-26 01:38:36.466  WARN 1 --- [ProcessThread-0] o.a.j.office.ManagedOfficeProcess        : office process died with exit code 81; restarting it
+libreoffice_1            | 2021-02-26 01:38:36.505  INFO 1 --- [ProcessThread-0] o.a.jodconverter.office.OfficeProcess    : Using original OpenOffice command: [/opt/libreoffice6.1/program/soffice.bin, -accept=socket,host=127.0.0.1,port=8100;urp;, -env:UserInstallation=file:///tmp/.jodconverter_socket_host-127.0.0.1_port-8100, -headless, -nocrashreport, -nodefault, -nofirststartwizard, -nolockcheck, -nologo, -norestore]
+libreoffice_1            | 2021-02-26 01:38:36.505  INFO 1 --- [ProcessThread-0] o.a.jodconverter.office.OfficeProcess    : starting process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1' and profileDir '/tmp/.jodconverter_socket_host-127.0.0.1_port-8100'
+libreoffice_1            | 2021-02-26 01:38:36.573  INFO 1 --- [ProcessThread-0] o.a.jodconverter.office.OfficeProcess    : started process; pid = 37
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:37.278  INFO 1 --- [           main] o.a.transformer.messaging.MessagingInfo  : JMS client is DISABLED, activemq.url: ''
+imagemagick_1            | 2021-02-26 01:38:37.680  INFO 1 --- [           main] o.a.transformer.messaging.MessagingInfo  : JMS client is DISABLED, activemq.url: ''
+libreoffice_1            | 2021-02-26 01:38:38.492  INFO 1 --- [ProcessThread-0] o.a.j.office.OfficeConnection            : connected: 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1'
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:39.299  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+imagemagick_1            | 2021-02-26 01:38:40.009  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+transform-misc_1         | 2021-02-26 01:38:40.035  WARN 1 --- [           main] o.a.p.p.font.FileSystemFontProvider      : Building on-disk font cache, this may take a while
+transform-misc_1         | 2021-02-26 01:38:40.039  WARN 1 --- [           main] o.a.p.p.font.FileSystemFontProvider      : Finished building on-disk font cache, found 0 fonts
+transform-misc_1         | 2021-02-26 01:38:40.048  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Times-Roman
+transform-misc_1         | 2021-02-26 01:38:40.063  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Times-Bold
+transform-misc_1         | 2021-02-26 01:38:40.072  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Times-Italic
+transform-misc_1         | 2021-02-26 01:38:40.096  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Times-BoldItalic
+transform-misc_1         | 2021-02-26 01:38:40.116  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Helvetica
+transform-misc_1         | 2021-02-26 01:38:40.133  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Helvetica-Bold
+transform-misc_1         | 2021-02-26 01:38:40.139  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Helvetica-Oblique
+transform-misc_1         | 2021-02-26 01:38:40.153  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Helvetica-BoldOblique
+transform-misc_1         | 2021-02-26 01:38:40.159  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Courier
+transform-misc_1         | 2021-02-26 01:38:40.164  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Courier-Bold
+transform-misc_1         | 2021-02-26 01:38:40.181  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Courier-Oblique
+transform-misc_1         | 2021-02-26 01:38:40.190  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Courier-BoldOblique
+transform-misc_1         | 2021-02-26 01:38:40.208  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Symbol
+transform-misc_1         | 2021-02-26 01:38:40.218  WARN 1 --- [           main] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font ZapfDingbats
+libreoffice_1            | 2021-02-26 01:38:41.336  INFO 1 --- [           main] o.a.transformer.messaging.MessagingInfo  : JMS client is DISABLED, activemq.url: ''
+transform-misc_1         | 2021-02-26 01:38:43.224  INFO 1 --- [           main] o.a.transformer.messaging.MessagingInfo  : JMS client is DISABLED, activemq.url: ''
+libreoffice_1            | 2021-02-26 01:38:44.303  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:45.371  INFO 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+imagemagick_1            | 2021-02-26 01:38:45.562  INFO 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+transform-misc_1         | 2021-02-26 01:38:45.696  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:46.534  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:46.599  INFO 1 --- [           main] org.alfresco.transformer.Application     : Started Application in 66.933 seconds (JVM running for 80.688)
+imagemagick_1            | 2021-02-26 01:38:46.741  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:46.774  INFO 1 --- [           main] org.alfresco.transformer.Application     : -----------------------------------------------------------------------------------------------------------------------------------------------------------
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:46.778  INFO 1 --- [           main] org.alfresco.transformer.Application     : License rights for this program may be obtained from Alfresco Software, Ltd. pursuant to a written agreement
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:46.779  INFO 1 --- [           main] org.alfresco.transformer.Application     : and any use of this program without such an agreement is prohibited.
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:46.779  INFO 1 --- [           main] org.alfresco.transformer.Application     : alfresco-pdf-renderer uses the PDFium library from Google Inc. See the license at https://pdfium.googlesource.com/pdfium/+/master/LICENSE or in /pdfium.txt
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:46.779  INFO 1 --- [           main] org.alfresco.transformer.Application     : -----------------------------------------------------------------------------------------------------------------------------------------------------------
+alfresco-pdf-renderer_1  | 2021-02-26 01:38:46.779  INFO 1 --- [           main] org.alfresco.transformer.Application     : Starting application components... Done
+imagemagick_1            | 2021-02-26 01:38:46.826  INFO 1 --- [           main] org.alfresco.transformer.Application     : Started Application in 67.186 seconds (JVM running for 80.079)
+tika_1                   | 2021-02-26 01:38:46.923  INFO 1 --- [           main] o.a.transformer.messaging.MessagingInfo  : JMS client is DISABLED, activemq.url: ''
+imagemagick_1            | 2021-02-26 01:38:47.020  INFO 1 --- [           main] org.alfresco.transformer.Application     : --------------------------------------------------------------------------------------------------------------------------------------------------------------
+imagemagick_1            | 2021-02-26 01:38:47.035  INFO 1 --- [           main] org.alfresco.transformer.Application     : License rights for this program may be obtained from Alfresco Software, Ltd. pursuant to a written agreement
+imagemagick_1            | 2021-02-26 01:38:47.044  INFO 1 --- [           main] org.alfresco.transformer.Application     : and any use of this program without such an agreement is prohibited.
+imagemagick_1            | 2021-02-26 01:38:47.048  INFO 1 --- [           main] org.alfresco.transformer.Application     : This transformer uses ImageMagick from ImageMagick Studio LLC. See the license at http://www.imagemagick.org/script/license.php or in /ImageMagick-license.txt
+imagemagick_1            | 2021-02-26 01:38:47.049  INFO 1 --- [           main] org.alfresco.transformer.Application     : --------------------------------------------------------------------------------------------------------------------------------------------------------------
+imagemagick_1            | 2021-02-26 01:38:47.056  INFO 1 --- [           main] org.alfresco.transformer.Application     : Starting application components... Done
+libreoffice_1            | 2021-02-26 01:38:49.251  INFO 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+tika_1                   | 2021-02-26 01:38:49.415  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+libreoffice_1            | 2021-02-26 01:38:49.984  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+libreoffice_1            | 2021-02-26 01:38:50.045  INFO 1 --- [           main] org.alfresco.transformer.Application     : Started Application in 74.624 seconds (JVM running for 86.173)
+transform-misc_1         | 2021-02-26 01:38:50.080  INFO 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+libreoffice_1            | 2021-02-26 01:38:50.171  INFO 1 --- [           main] org.alfresco.transformer.Application     : -------------------------------------------------------------------------------------------------------------------------------------------------------
+libreoffice_1            | 2021-02-26 01:38:50.183  INFO 1 --- [           main] org.alfresco.transformer.Application     : License rights for this program may be obtained from Alfresco Software, Ltd. pursuant to a written agreement
+libreoffice_1            | 2021-02-26 01:38:50.185  INFO 1 --- [           main] org.alfresco.transformer.Application     : and any use of this program without such an agreement is prohibited.
+libreoffice_1            | 2021-02-26 01:38:50.194  INFO 1 --- [           main] org.alfresco.transformer.Application     : This transformer uses LibreOffice from The Document Foundation. See the license at https://www.libreoffice.org/download/license/ or in /libreoffice.txt
+libreoffice_1            | 2021-02-26 01:38:50.195  INFO 1 --- [           main] org.alfresco.transformer.Application     : -------------------------------------------------------------------------------------------------------------------------------------------------------
+libreoffice_1            | 2021-02-26 01:38:50.196  INFO 1 --- [           main] org.alfresco.transformer.Application     : Starting application components... Done
+transform-misc_1         | 2021-02-26 01:38:51.209  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+transform-misc_1         | 2021-02-26 01:38:51.242  INFO 1 --- [           main] org.alfresco.transformer.Application     : Started Application in 70.906 seconds (JVM running for 84.715)
+transform-misc_1         | 2021-02-26 01:38:51.392  INFO 1 --- [           main] org.alfresco.transformer.Application     : --------------------------------------------------------------------------------------------------------------------------------------------------------------
+transform-misc_1         | 2021-02-26 01:38:51.400  INFO 1 --- [           main] org.alfresco.transformer.Application     : The transformers in this project use libraries from Apache. See the license at http://www.apache.org/licenses/LICENSE-2.0. or in /Apache\\ 2.0.txt
+transform-misc_1         | 2021-02-26 01:38:51.400  INFO 1 --- [           main] org.alfresco.transformer.Application     : Additional libraries used:
+transform-misc_1         | 2021-02-26 01:38:51.402  INFO 1 --- [           main] org.alfresco.transformer.Application     : * htmlparser http://htmlparser.sourceforge.net/license.html
+transform-misc_1         | 2021-02-26 01:38:51.402  INFO 1 --- [           main] org.alfresco.transformer.Application     : --------------------------------------------------------------------------------------------------------------------------------------------------------------
+transform-misc_1         | 2021-02-26 01:38:51.403  INFO 1 --- [           main] org.alfresco.transformer.Application     : Starting application components... Done
+tika_1                   | 2021-02-26 01:38:53.079  INFO 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+tika_1                   | 2021-02-26 01:38:53.711  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+tika_1                   | 2021-02-26 01:38:53.751  INFO 1 --- [           main] org.alfresco.transformer.Application     : Started Application in 73.893 seconds (JVM running for 89.077)
+tika_1                   | 2021-02-26 01:38:53.838  INFO 1 --- [           main] org.alfresco.transformer.Application     : --------------------------------------------------------------------------------------------------------------------------------------------------------------
+tika_1                   | 2021-02-26 01:38:53.839  INFO 1 --- [           main] org.alfresco.transformer.Application     : License rights for this program may be obtained from Alfresco Software, Ltd. pursuant to a written agreement
+tika_1                   | 2021-02-26 01:38:53.840  INFO 1 --- [           main] org.alfresco.transformer.Application     : and any use of this program without such an agreement is prohibited.
+tika_1                   | 2021-02-26 01:38:53.840  INFO 1 --- [           main] org.alfresco.transformer.Application     : Tika is from Apache. See the license at http://www.apache.org/licenses/LICENSE-2.0. or in /Apache\ 2.0.txt
+tika_1                   | 2021-02-26 01:38:53.840  INFO 1 --- [           main] org.alfresco.transformer.Application     : --------------------------------------------------------------------------------------------------------------------------------------------------------------
+tika_1                   | 2021-02-26 01:38:53.840  INFO 1 --- [           main] org.alfresco.transformer.Application     : Starting application components... Done
+share_1                  | 2021-02-26 01:39:00,906  INFO  [config.packaging.ModulePackageManager] [localhost-startStop-1] Found 1 module package(s)
+share_1                  |  2021-02-26 01:39:00,910  INFO  [config.packaging.ModulePackageManager] [localhost-startStop-1] Alfresco / Google Docs Share Module, 3.1.0, The Share side artifacts of the Alfresco / Google Docs Integration.
+share_1                  |
+share_1                  |  2021-02-26 01:39:02,036  INFO  [extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+share_1                  |  2021-02-26 01:39:02,055  INFO  [extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+share_1                  |  2021-02-26 01:39:02,058  INFO  [extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+share_1                  |  2021-02-26 01:39:02,061  INFO  [extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+share_1                  |  2021-02-26 01:39:06,864  INFO  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 393 Web Scripts (+0 failed), 411 URLs
+share_1                  |  2021-02-26 01:39:06,876  INFO  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 8 Package Description Documents (+0 failed)
+share_1                  |  2021-02-26 01:39:06,882  INFO  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed)
+share_1                  |  2021-02-26 01:39:07,066  INFO  [extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Surf Container Web Script Container (in 4994.2393ms)
+share_1                  |  2021-02-26 01:39:07,272  INFO  [extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+share_1                  |  2021-02-26 01:39:07,278  INFO  [extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+share_1                  |  26-Feb-2021 01:39:08.018 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/share] has finished in [79,887] ms
+share_1                  | 26-Feb-2021 01:39:08.027 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-7080"]
+share_1                  | 26-Feb-2021 01:39:08.065 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-7009"]
+share_1                  | 26-Feb-2021 01:39:08.073 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 81658 ms
+share_1                  | 2021-02-26 01:39:57,791  INFO  [web.site.EditionInterceptor] [http-nio-7080-exec-1] Unable to retrieve License information from Alfresco: 404
+proxy_1                  | 10.1.0.3 - - [26/Feb/2021:01:40:03 +0000] "GET /share/page/ HTTP/1.1" 200 39295 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+proxy_1                  | 10.1.0.3 - - [26/Feb/2021:01:40:03 +0000] "GET /share/res/js/alfresco_cea5026645970f746dd1ef071c26fefd.js HTTP/1.1" 200 125684 "http://10.20.15.4:7080/share/page/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+proxy_1                  | 10.1.0.3 - - [26/Feb/2021:01:46:25 +0000] "GET /share/page/ HTTP/1.1" 200 39295 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+proxy_1                  | 10.1.0.3 - - [26/Feb/2021:01:46:30 +0000] "POST /share/page/dologin HTTP/1.1" 302 0 "http://10.20.15.4:7080/share/page/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+proxy_1                  | 10.1.0.3 - - [26/Feb/2021:01:46:30 +0000] "GET /share/page/?error=true HTTP/1.1" 200 39070 "http://10.20.15.4:7080/share/page/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+proxy_1                  | 10.1.0.3 - - [26/Feb/2021:02:17:12 +0000] "GET /share/page/ HTTP/1.1" 200 39295 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+proxy_1                  | 10.1.0.3 - - [26/Feb/2021:02:17:12 +0000] "GET /share/noauth/messages_dd1b1d8ef94e22f7a73b2cea1dc2deb1.js?locale=en_US HTTP/1.1" 200 82083 "http://10.20.15.4:7080/share/page/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+proxy_1                  | 10.1.0.3 - - [26/Feb/2021:02:17:17 +0000] "POST /share/page/dologin HTTP/1.1" 302 0 "http://10.20.15.4:7080/share/page/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+proxy_1                  | 10.1.0.3 - - [26/Feb/2021:02:17:17 +0000] "GET /share/page/?error=true HTTP/1.1" 200 39070 "http://10.20.15.4:7080/share/page/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+proxy_1                  | 10.1.0.3 - - [26/Feb/2021:02:19:46 +0000] "GET /share/page/ HTTP/1.1" 200 39295 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+proxy_1                  | 10.1.0.3 - - [26/Feb/2021:02:19:51 +0000] "POST /share/page/dologin HTTP/1.1" 302 0 "http://10.20.15.4:7080/share/page/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+proxy_1                  | 10.1.0.3 - - [26/Feb/2021:02:19:51 +0000] "GET /share/page/?error=true HTTP/1.1" 200 39070 "http://10.20.15.4:7080/share/page/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36"
+
