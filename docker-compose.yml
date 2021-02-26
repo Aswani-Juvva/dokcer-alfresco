@@ -21,7 +21,7 @@ services:
                 -Ddb.driver=org.postgresql.Driver
                 -Ddb.username=alfresco
                 -Ddb.password=alfresco
-                -Ddb.url=jdbc:postgresql://10.20.15.5:5432/alfresco
+                -Ddb.url=jdbc:postgresql://XX.XX.15.5:5432/alfresco
                 -Dsolr.host=solr6
                 -Dsolr.port=9999
                 -Dsolr.secureComms=none
